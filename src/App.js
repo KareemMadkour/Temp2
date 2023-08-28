@@ -14,16 +14,15 @@ import { Routes, Route } from 'react-router-dom';
 export default function App() {
   return (
     <>
-    
       <Navbar />
       <MiniNavbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/quick-searches" element={<QuickSearches />} />
-        <Route path="/collection-food" element={<CollectionFood />} />
-        <Route path="/get-the-app" element={<GetTheApp />} />
-        <Route path="/customer-feedback" element={<CustomerFeedback />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/quick-searches1" element={<QuickSearches />} />
+        <Route path="/collection-food1" element={<CollectionFood />} />
+        <Route path="/get-the-app1" element={<GetTheApp />} />
+        <Route path="/customer-feedback1" element={<CustomerFeedback />} />
+        <Route path="/contact1" element={<Contact />} />
       </Routes>
       <Footer />
     </>
