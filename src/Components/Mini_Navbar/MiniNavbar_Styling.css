@@ -1,0 +1,22 @@
+.me-auto img {
+    width: 25px;
+    height: 25px;
+}
+
+.space {
+    padding: 0 25px;
+}
+
+.me-auto a {
+    text-decoration: none;
+    color: black;
+    padding: 0 5px;
+}
+
+.me-auto a:hover {
+    text-decoration: underline;
+}
+
+.login-btn:hover {
+    color: #8eb50b;
+}

@@ -1,0 +1,22 @@
+.Customer-Says-Container{
+    padding: 20px 0;
+}
+.Customer-Says-Container h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.Customer-Says-Container .card{
+    width: 30%;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.Customer-Says-Container .card-title{
+    text-align: center;
+}
+
+@media screen and (max-width:767px){
+    .Customer-Says-Container .card{
+        width: 90%;
+    }
+}

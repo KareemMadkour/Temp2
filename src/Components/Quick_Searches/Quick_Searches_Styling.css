@@ -1,0 +1,33 @@
+.Quick-Searches-Container {
+    padding: 10px 0;
+    
+}
+.Quick-Searches-Container .cardClass{
+    border: none;
+}
+.Quick-Searches-Container .cardClass img {
+    border: 2px white solid;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+.Quick-Searches-Container img{
+    display: grid;
+    margin: 0 auto;
+}
+
+.Quick-Searches-Container .seeMore-btn {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #8eb50b;
+    border-radius: 20px;
+    color: white;
+    display: grid;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.Quick-Searches-Container .seeMore-btn:hover {
+    background-color: orange;
+}

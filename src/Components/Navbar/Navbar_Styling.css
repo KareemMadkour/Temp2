@@ -1,0 +1,30 @@
+.Navbar-container{
+    background-color: #8eb50b;
+    max-width: 100%;
+}
+.Navbar-container a{
+    text-decoration: none;
+    padding: 34px;
+    background-color: rgb(51, 39, 39);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.leftA{
+    position: relative;
+    left: 5%;
+}
+.rightA{
+    position: relative;
+    right: 5%;
+}
+a:hover{
+    color: #8eb50b;
+}
+
+@media screen and (max-width:1000px) {
+    .Navbar-container a{
+        display: none;
+    }
+}

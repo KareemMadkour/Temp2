@@ -1,0 +1,45 @@
+.Contact-Container {
+    padding: 10px 0;
+}
+
+.Contact-Container h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Contact-Container .form-control {
+    width: 70%;
+    display: grid;
+    margin: 0 auto;
+}
+
+.Contact-Container .send-btn {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #8eb50b;
+    color: white;
+    width: 17%;
+    border: 1px solid black;
+    display: grid;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.Contact-Container .send-btn:hover {
+    background-color: orange;
+}
+
+.Contact-Container .mini-div {
+    padding: 10px 30px;
+    background-color: rgb(102, 109, 122);
+    display: grid;
+    margin: 20px auto;
+    width: 100%;
+}
+
+@media screen and (max-width:767px) {
+    .Contact-Container .mini-div .send-btn {
+        width: 50%;
+    }
+}

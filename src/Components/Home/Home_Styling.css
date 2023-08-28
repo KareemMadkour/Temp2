@@ -1,0 +1,58 @@
+.Home-Container {
+    height: 90vh;
+    width: 100vh;
+}
+
+.Home-Container h1 {
+    text-align: center;
+}
+
+.Home-Container .yourCity-cont {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 auto;
+    width: 20%;
+    height: 20%;
+    padding: 10px 20px;
+    background-color: black;
+    color: #8eb50b;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.Home-Container .dropdown-with-input {
+    display: grid;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.Home-Container .dropdown-with-input .btn-primary {
+    background-color: black;
+    border: 1px white solid;
+    padding: 20px 30px;
+    font-weight: 400;
+}
+
+.Home-Container .dropdown-with-input img {
+    width: 40px;
+    height: 40px;
+}
+
+.Home-Container .orderNow-btn {
+    text-decoration: none;
+    color: white;
+    padding: 20px 15px;
+    background-color: #8eb50b;
+    border-radius: 20px;
+    width: 150px;
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.Home-Container .orderNow-btn:hover{
+    color: black;
+    background-color: orange;
+}
