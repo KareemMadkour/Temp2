@@ -18,7 +18,7 @@ export default function App() {
       <Navbar />
       <MiniNavbar />
       <Routes>
-        <Route path="/" exact element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/quick-searches" element={<QuickSearches />} />
         <Route path="/collection-food" element={<CollectionFood />} />
         <Route path="/get-the-app" element={<GetTheApp />} />
