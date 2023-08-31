@@ -1,6 +1,7 @@
 .Home-Container {
     height: 90vh;
     width: 100vh;
+    
 }
 
 .Home-Container h1 {
@@ -9,8 +10,7 @@
 
 .Home-Container .yourCity-cont {
     text-align: center;
-    font-weight: bold;
-    font-size: 25px;
+    font-weight: 400;
     margin: 0 auto;
     width: 20%;
     height: 20%;
@@ -23,7 +23,7 @@
 
 .Home-Container .dropdown-with-input {
     display: grid;
-    margin: 0 auto;
+    margin: auto;
     width: 70%;
 }
 
